@@ -52,7 +52,8 @@ function App() {
                 name="city"
                 placeholder="Enter City..."
               />
-              <button onClick={(e) => handleUnitsClick(e)}>°F</button>
+              <p>(Press Enter Key to Search)</p>
+              <button onClick={(e) => handleUnitsClick(e)}>To °F</button>
             </div>
 
             <div className="section section__temperature">
